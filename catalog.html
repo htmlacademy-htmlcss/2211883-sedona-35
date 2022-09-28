@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <title> Гостиницы Седоны </title>
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
   </head>
+
   <body>
     <header class="main-header">
       <nav class="navigation">
@@ -27,7 +29,9 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
-              Поиск </span></a>
+                Поиск
+              </span>
+            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -37,10 +41,7 @@
             <a class="navigation-link" href="#"> <span class="visually-hidden">Хочу сюда</span> </a>
           </li>
         </ul>
-
       </nav>
-
-
     </header>
 
     <main class="main-inner">
@@ -62,11 +63,11 @@
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
-            <label class="control">
-              <input class="control-input" type="checkbox" name="swimming-pool" checked>
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="swimming-pool" checked>
 
-              Бассейн
-            </label>
+                  Бассейн
+                </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
@@ -77,7 +78,7 @@
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="wi-fi" >
+                  <input class="control-input" type="checkbox" name="wi-fi">
 
                   Wi-Fi
                 </label>
@@ -85,40 +86,42 @@
           </fieldset>
 
           <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Тип жилья:</legend>
-          <ul class="catalog-filter-list">
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="product-group" value="hotel" checked>
+            <legend class="catalog-filter-title">Тип жилья:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group" value="hotel" checked>
 
-                Гостиница
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="product-group" value="Motel" >
+                  Гостиница
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group" value="Motel">
 
-                Мотель
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="product-group" value="Apartments">
+                  Мотель
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group" value="Apartments">
 
-                Апартаменты
-              </label>
-            </li>
-
-        </fieldset>
-        <div class="range-filter">
-          <div class="range-controls">
-              <div class="scale"><div  class="bar"></div></div>
-              <div class="toggle min-toggle" ></div>
-              <div class="toggle max-toggle" ></div>
-          </div>
-          <div class="price-controls">
+                  Апартаменты
+                </label>
+              </li>
+          </fieldset>
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
               от <input class="min-price" type="text" value="0">
               до <input class="max-price" type="text" value="9 000">
+            </div>
           </div>
           <button class="button" type="submit">Применить</button>
           <button class="button" type="submit">Сбросить</button>
@@ -136,128 +139,132 @@
           <span class="visually-hidden">Показать по одному</span>
         </a>
         <a class="button" href="#">
-          <span class="visually-hidden">Показать сисок</span>
+          <span class="visually-hidden">Показать список</span>
         </a>
         <ul class="product-list">
-        <li class="product-card">
-          <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="img/HotelAmara.png" width="300" height="215" alt="Картинка гостины Амара">
-            <h3 class="product-card-title">Amara Resort & Spa</h3>
-          </a>
-          <p class="product-card-price">Гостиница</b>
-          <b class="product-card-price"> От 4000 ₽</b>
-          <a class="product-card-button button" href="#">подробнее</a>
-          <a class="product-card-button button" href="#">в избранное</a>
-          <div class="rating-area">
-            <input type="radio" id="star-5" name="rating" value="5">
-            <label for="star-5" title="Оценка «5»"></label>
-            <input type="radio" id="star-4" name="rating" value="4">
-            <label for="star-4" title="Оценка «4»"></label>
-            <input type="radio" id="star-3" name="rating" value="3">
-            <label for="star-3" title="Оценка «3»"></label>
-            <input type="radio" id="star-2" name="rating" value="2">
-            <label for="star-2" title="Оценка «2»"></label>
-            <input type="radio" id="star-1" name="rating" value="1">
-            <label for="star-1" title="Оценка «1»"></label>
-          </div>
-          <div class="rating-result">
-            <span class="active"></span>
-            <span class="active"></span>
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-          </div>
-          <a class="product-card-button button" href="#">Рейтинг: 8,5</a>
+          <li class="product-card">
+            <a class="product-card-link" href="product.html">
+              <img class="product-card-image" src="img/HotelAmara.png" width="300" height="215"
+                alt="Картинка гостины Амара">
+              <h3 class="product-card-title">Amara Resort & Spa</h3>
+            </a>
+            <p class="product-card-price">Гостиница</b>
+              <b class="product-card-price"> От 4000 ₽</b>
+              <a class="product-card-button button" href="#">подробнее</a>
+              <a class="product-card-button button" href="#">в избранное</a>
+              <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+              </div>
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a class="product-card-button button" href="#">Рейтинг: 8,5</a>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="img/hotelVillas.jpg" width="300" height="212" alt="Картинка гостины Villas">
+              <img class="product-card-image" src="img/hotelVillas.jpg" width="300" height="212"
+                alt="Картинка гостины Villas">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
             <p class="product-card-price">Гостиница</b>
-            <b class="product-card-price"> От 5000 ₽</b>
-            <a class="product-card-button button" href="#">подробнее</a>
-            <a class="product-card-button button" href="#">в избранное</a>
-            <div class="rating-area">
-              <input type="radio" id="star-5" name="rating" value="5">
-              <label for="star-5" title="Оценка «5»"></label>
-              <input type="radio" id="star-4" name="rating" value="4">
-              <label for="star-4" title="Оценка «4»"></label>
-              <input type="radio" id="star-3" name="rating" value="3">
-              <label for="star-3" title="Оценка «3»"></label>
-              <input type="radio" id="star-2" name="rating" value="2">
-              <label for="star-2" title="Оценка «2»"></label>
-              <input type="radio" id="star-1" name="rating" value="1">
-              <label for="star-1" title="Оценка «1»"></label>
-            </div>
-            <div class="rating-result">
-              <span class="active"></span>
-              <span class="active"></span>
-              <span class="active"></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a class="product-card-button button" href="#">Рейтинг: 9,2</a>
+              <b class="product-card-price"> От 5000 ₽</b>
+              <a class="product-card-button button" href="#">подробнее</a>
+              <a class="product-card-button button" href="#">в избранное</a>
+              <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+              </div>
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a class="product-card-button button" href="#">Рейтинг: 9,2</a>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="img/hotelDesert.jpg" width="300" height="212" alt="Картинка гостины Desert">
+              <img class="product-card-image" src="img/hotelDesert.jpg" width="300" height="212"
+                alt="Картинка гостины Desert">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
             <p class="product-card-price">Гостиница</b>
-            <b class="product-card-price"> От 2500 ₽</b>
-            <a class="product-card-button button" href="#">подробнее</a>
-            <a class="product-card-button button" href="#">в избранное</a>
-            <div class="rating-area">
-              <input type="radio" id="star-5" name="rating" value="5">
-              <label for="star-5" title="Оценка «5»"></label>
-              <input type="radio" id="star-4" name="rating" value="4">
-              <label for="star-4" title="Оценка «4»"></label>
-              <input type="radio" id="star-3" name="rating" value="3">
-              <label for="star-3" title="Оценка «3»"></label>
-              <input type="radio" id="star-2" name="rating" value="2">
-              <label for="star-2" title="Оценка «2»"></label>
-              <input type="radio" id="star-1" name="rating" value="1">
-              <label for="star-1" title="Оценка «1»"></label>
-            </div>
-            <div class="rating-result">
-              <span class="active"></span>
-              <span class="active"></span>
-              <span class="active"></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a class="product-card-button button" href="#">Рейтинг: 6,9</a>
+              <b class="product-card-price"> От 2500 ₽</b>
+              <a class="product-card-button button" href="#">подробнее</a>
+              <a class="product-card-button button" href="#">в избранное</a>
+              <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+              </div>
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a class="product-card-button button" href="#">Рейтинг: 6,9</a>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="img/hotelgreen.jpg" width="300" height="212" alt="Картинка гостины GreenTree">
+              <img class="product-card-image" src="img/hotelgreen.jpg" width="300" height="212"
+                alt="Картинка гостины GreenTree">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <p class="product-card-price">Гостиница</b>
-            <b class="product-card-price"> От 1500 ₽</b>
-            <a class="product-card-button button" href="#">подробнее</a>
-            <a class="product-card-button button" href="#">в избранное</a>
-            <div class="rating-area">
-              <input type="radio" id="star-5" name="rating" value="5">
-              <label for="star-5" title="Оценка «5»"></label>
-              <input type="radio" id="star-4" name="rating" value="4">
-              <label for="star-4" title="Оценка «4»"></label>
-              <input type="radio" id="star-3" name="rating" value="3">
-              <label for="star-3" title="Оценка «3»"></label>
-              <input type="radio" id="star-2" name="rating" value="2">
-              <label for="star-2" title="Оценка «2»"></label>
-              <input type="radio" id="star-1" name="rating" value="1">
-              <label for="star-1" title="Оценка «1»"></label>
-            </div>
-            <div class="rating-result">
-              <span class="active"></span>
-              <span class="active"></span>
-              <span class="active"></span>
-              <span></span>
-              <span></span>
-            </div>
-            <a class="product-card-button button" href="#">Рейтинг: 5,0</a>
+              <b class="product-card-price"> От 1500 ₽</b>
+              <a class="product-card-button button" href="#">подробнее</a>
+              <a class="product-card-button button" href="#">в избранное</a>
+              <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+              </div>
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a class="product-card-button button" href="#">Рейтинг: 5,0</a>
           </li>
         </ul>
         <ul class="pagination">
@@ -279,7 +286,7 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
-         </ul>
+        </ul>
       </section>
     </main>
 
@@ -288,47 +295,43 @@
       <p> Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <label for="newsletter-email">Email</label>
-        <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+        <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email"
+          required>
         <button class="button newsletter-button" type="submit">
           <span class="visually-hidden">Подписаться</span>
         </button>
       </form>
-     </section>
+    </section>
 
-     <footer class="page-footer">
-
+    <footer class="page-footer">
       <section class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">ВКонтакте</span>
             </a>
-
-        </li>
-      <li class="footer-social-item">
-        <a class="button" href="https://t.me/htmlacademy">
-          <span class="visually-hidden">Твиттер</span>
-
-        </a>
-        </li>
-      <li class="footer-social-item">
-        <a  class="button" href="https://www.youtube.com/user/htmlacademyru">
-          <span class="visually-hidden">Ютуб</span>
-
-        </a>
-        </li>
-      <section class="footer-contacts">
-         <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </section>
-      <li>
-        <a class="footer-logo" href="https://htmlacademy.ru"> Логотип компании
-
-        </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
         </ul>
+      </section>
 
+      <section class="footer-contacts">
+        <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </section>
 
-
-  </footer>
-
+      <section class="footer-logo">
+        <a class="footer-logo" href="https://htmlacademy.ru">Логотип компании</a>
+      </section>
+    </footer>
   </body>
+
 </html>
