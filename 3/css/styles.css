@@ -1,0 +1,65 @@
+.welcome {
+  background-image: url('../img/header/index-background.jpg');
+  padding: 51px 371px 82px 371px;
+}
+
+.main-hero-divider {
+  position: relative;
+  bottom: 60px;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+.newsletter {
+  background-image: url('../img/newstetter/subscribtion.jpg');
+  Width: 1, 200px;
+  Height: 414, 86px;
+  margin-top: 20px;
+  margin-left: 20px;
+  Padding: 96px, 258px, 104px, 258px;
+  Gap: 10px;
+}
+
+.button-newsletter-button {
+  background: #82B3D3
+}
+
+.catalog-filter {
+  width: 1200px;
+  background-image: url('../img/catalog/catalog-background.jpg');
+}
+
+.button-first {
+  background: #82B3D3;
+}
+
+.button-reset {
+  background-color: transparent;
+}
+
+.rating-area {
+  background-image: url('../img/product/star.svg');
+  height: 17px;
+}
+
+.one-star {
+  width: 18px;
+}
+
+.two-stars {
+  width: 36px;
+}
+
+.three-stars {
+  width: 54px;
+}
+
+.four-stars {
+  width: 72px;
+}
+
+.five-stars {
+  width: 90px;
+}
