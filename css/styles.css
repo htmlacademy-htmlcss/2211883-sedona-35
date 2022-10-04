@@ -1,5 +1,5 @@
 .welcome {
-  background-image: url('../img/header/index-background.jpg');
+  background-image: url('../img/header/index-background.png');
   padding: 51px 371px 82px 371px;
 }
 
@@ -14,12 +14,12 @@ body {
 
 .newsletter {
   background-image: url('../img/newstetter/subscribtion.jpg');
-  Width: 1, 200px;
-  Height: 414, 86px;
+  width: 1, 200px;
+  height: 414, 86px;
   margin-top: 20px;
   margin-left: 20px;
-  Padding: 96px, 258px, 104px, 258px;
-  Gap: 10px;
+  padding: 96px, 258px, 104px, 258px;
+  gap: 10px;
 }
 
 .button-newsletter-button {
@@ -28,7 +28,7 @@ body {
 
 .catalog-filter {
   width: 1200px;
-  background-image: url('../img/catalog/catalog-background.jpg');
+  background-image: url('../img/catalog/catalog-background.png');
 }
 
 .button-first {
