@@ -38,7 +38,7 @@
 body {
   background-color: #F2F2F2;
   color: #000000;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 22px;
   line-height: 26px;
   width: 1200px;
@@ -46,7 +46,7 @@ body {
 
 }
 
-header {
+.main-header {
   background-color: #FFFFFF;
   color: #000000;
 
@@ -56,7 +56,7 @@ header {
   color: #000000;
 }
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -82,7 +82,7 @@ header {
 
 }
 .main-hero-description {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -123,13 +123,13 @@ header {
   background-color: #FFFFFF;
 }
 .catalog-filter-title {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 }
 .control {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -180,7 +180,7 @@ h2 {
   color:#FFFFFF;
 }
 .catalog-filter-hotel {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -188,19 +188,19 @@ h2 {
 }
 .breadcrambs-link {
   color:#FFFFFF;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
 }
 .open-hotel {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 }
 .product-card-title {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -256,7 +256,7 @@ input[required] {
 }
 
 .footer-contacts-address-phone {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
