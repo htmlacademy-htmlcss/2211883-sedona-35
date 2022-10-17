@@ -54,7 +54,6 @@ body {
   flex-direction: column;
   min-height: 100%;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-
 }
 
 .main-container {
@@ -83,7 +82,6 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
   color: #000000;
-
 }
 
 .navigation {
@@ -105,8 +103,6 @@ body {
   width: 500px;
   text-decoration: none;
   list-style-type: none;
-
-
 }
 
 .navigation-user {
@@ -145,15 +141,7 @@ body {
   color: #000000;
 }
 
-main {
-  display: block;
-}
-
 .logo {
-  display: block;
-}
-
-div {
   display: block;
 }
 
@@ -334,7 +322,6 @@ h2 {
   width: 684px;
 }
 
-
 .newsletter-catalog {
   background-image: none;
   background-color: #FFFFFF;
@@ -413,10 +400,6 @@ input[required] {
   height: 52px;
   padding-left: 12px;
   border: 0;
-}
-
-footer {
-  display: block;
 }
 
 .footer-contacts {
@@ -686,14 +669,9 @@ a {
 
 .select-control {
   width: 292px;
-}
-
-option {
-  font-weight: normal;
-  display: block;
-  white-space: nowrap;
-  min-height: 1.2em;
-  padding: 0 2px 1px;
+  font-family: inherit;
+  font-size: 18px;
+  padding-left: 20px;
 }
 
 .view-container {
@@ -734,9 +712,7 @@ option {
   align-items: center;
   padding: 20px;
   gap: 16px;
-
   width: 300px;
-
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 }
