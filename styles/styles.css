@@ -390,6 +390,14 @@ h2 {
 
 .visually-hidden {
   display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 input[required] {
@@ -423,6 +431,7 @@ input[required] {
   display: flex;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .footer-social-item {
