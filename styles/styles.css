@@ -702,15 +702,14 @@ a {
 }
 
 .product-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  gap: 60px;
   margin-bottom: 40px;
-  gap: 20px 0;
+
 }
 
 .product-card {
