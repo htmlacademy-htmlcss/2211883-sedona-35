@@ -505,7 +505,7 @@ a {
   width: 232px;
   height: 54px;
   border-radius: 0 4px 4px 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1011,10 +1011,10 @@ a {
   position: relative;
 }
 
-.control-input[type=radio]+label::before,
-.control-input[type=checkbox]+label::before,
-.control-input[type=radio]+label::after,
-.control-input[type=checkbox]+label::after {
+.control-input[type=radio] + .control::before,
+.control-input[type=checkbox] + .control::before,
+.control-input[type=radio] + .control::after,
+.control-input[type=checkbox] + .control::after {
   display: block;
   position: absolute;
   content: "";
@@ -1025,12 +1025,12 @@ a {
   top: calc(calc(100% - 20px)/2);
 }
 
-.control-input[type=radio]+label::before,
-.control-input[type=radio]+label::after {
+.control-input[type=radio] + .control::before,
+.control-input[type=radio] + .control::after {
   border-radius: 50%;
 }
 
-.control-input[type=radio]:checked+label::after {
+.control-input[type=radio]:checked + .control::after {
   background-color: #3F5E72;
   width: 10px;
   height: 10px;
@@ -1038,12 +1038,12 @@ a {
   top: calc(calc(100% - 10px)/2);
 }
 
-.control-input[type=checkbox]+label::before,
-.control-input[type=checkbox]+label::after {
+.control-input[type=checkbox] + .control::before,
+.control-input[type=checkbox] + .control::after {
   border-radius: 4px;
 }
 
-.control-input[type=checkbox]:checked+label::after {
+.control-input[type=checkbox]:checked + .control::after {
   content: url("../img/catalog/chechbox-icon.svg");
 }
 
@@ -1055,13 +1055,13 @@ a {
   opacity: 0.3;
 }
 
-.control-input[type=checkbox]:focus+label::after,
-.control-input[type=checkbox]:focus-visible+label::after {
+.control-input[type=checkbox]:focus + .control::after,
+.control-input[type=checkbox]:focus-visible + .control::after {
   outline: 3px solid #83B3D3;
 }
 
-.control-input[type=radio]:focus+label::before,
-.control-input[type=radio]:focus-visible+label::before {
+.control-input[type=radio]:focus + .control::before,
+.control-input[type=radio]:focus-visible + .control::before {
   outline: 3px solid #83B3D3;
 }
 
@@ -1168,7 +1168,7 @@ a {
 }
 
 .advantages-description {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1185,7 +1185,7 @@ a {
 .advantages-title {
   margin: 0;
   margin-bottom: 62px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1222,7 +1222,7 @@ a {
 
 .services-title {
   margin: 0;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1233,7 +1233,7 @@ a {
 
 .services-description {
   margin: 0;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1471,7 +1471,7 @@ a {
   height: 20px;
   left: 20px;
   top: 11px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
