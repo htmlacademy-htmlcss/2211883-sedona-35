@@ -53,7 +53,11 @@
             </a>
           </li>
         </ul>
-        <a class="button navigation-button" href="#">
+        <a class="button navigation-button" href="#" onclick="
+        let popup = document.querySelector('#search-hotels-popup');
+        if(popup !== undefined) {
+          popup.classList.remove('popup-closed');
+        }">
           Хочу сюда!
         </a>
       </div>
