@@ -3,6 +3,8 @@
 
   <head>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="./img/favicon.ico">
+    <script language="JavaScript" type="text/javascript" src="./js/script.js"></script>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
@@ -53,13 +55,9 @@
             </a>
           </li>
         </ul>
-        <a class="button navigation-button" href="#" onclick="
-        let popup = document.querySelector('#search-hotels-popup');
-        if(popup !== undefined) {
-          popup.classList.remove('popup-closed');
-        }">
+        <button class="button navigation-button" onclick="openPopup('#search-hotels-popup')">
           Хочу сюда!
-        </a>
+        </button>
       </div>
     </header>
 
@@ -217,11 +215,7 @@
     </footer>
     <div class="modal-container popup-closed" id="search-hotels-popup">
       <div class="modal modal-auth">
-        <button class="modal-close-button"  onclick="
-        let popup = document.querySelector('#search-hotels-popup');
-        if(popup !== undefined) {
-          popup.classList.add('popup-closed');
-        }">
+        <button class="modal-close-button"  onclick="closePopup('#search-hotels-popup')">
           <span class="visually-hidden">Закрыть</span>
         </button>
         <section class="modal-content">

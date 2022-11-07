@@ -1552,7 +1552,7 @@ a {
 }
 
 .explanation {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1568,7 +1568,7 @@ a {
   width: 440px;
   border: 0;
   border-radius: 4px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1590,7 +1590,7 @@ a {
   width: 577px;
   height: 60px;
   border-radius: 10px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
