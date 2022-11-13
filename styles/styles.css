@@ -297,7 +297,7 @@ body {
   line-height: 23px;
 }
 
-h2 {
+.title-h2 {
   line-height: 36px;
   text-align: center;
   font-weight: 700;
@@ -351,6 +351,7 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  text-decoration: none;
 }
 
 .product-card-title {
@@ -451,7 +452,7 @@ h2 {
   list-style-type: none;
 }
 
-h3 {
+.title-h3 {
   font-weight: 700;
 }
 
@@ -462,11 +463,11 @@ h3 {
   font-size: 30px;
 }
 
-ul {
+.ul-class {
   list-style-type: none;
 }
 
-a {
+.link {
   text-decoration: none;
   color: #000000;
 }
