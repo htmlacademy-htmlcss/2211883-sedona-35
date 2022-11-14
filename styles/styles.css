@@ -488,6 +488,7 @@ body {
   padding: 8px 50px 8px 50px;
   display: inline-block;
   cursor: pointer;
+  margin: 0;
 }
 
 .button-brown {
@@ -773,7 +774,6 @@ body {
 .newsletter-form {
   display: flex;
   width: 684px;
-  flex-wrap: wrap;
 }
 
 .button-reset {
