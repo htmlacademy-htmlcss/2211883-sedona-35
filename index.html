@@ -231,15 +231,17 @@
           <h2 class="modal-title title-h2">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
-              <label class="explanation" for="arrival-date">Дата заезда:</label>
-              <input class="field-input date-input" type="date" id="arrival-date" name="arrival-date">
+              <label class="explanation" for="arrival-date">Дата Заезда:</label>
+              <input class="field-input date-input" type="text" id="arrival-date" name="arrival-date"
+                value="27 апреля 2020" placeholder="Укажите дату">
               <span class="field-input-validation validation-error">
                 Мы не можем отправить вас в прошлое.
               </span>
             </p>
             <p class="field-group">
-              <label class="explanation" for="date-of-departure">Дата выезда:</label>
-              <input class="field-input date-input" type="date" id="date-of-departure" name="date-of-departure">
+              <label class="explanation" for="date-of-departure">Дата Выезда:</label>
+              <input class="field-input date-input" type="text" id="date-of-departure" name="date-of-departure"
+                value="1 сентября 2023" placeholder="Укажите дату">
               <span class="field-input-validation">
                 На эти даты есть свободные номера. Пока есть.
               </span>
@@ -249,7 +251,7 @@
                 <label class="explanation" for="adults">Взрослые:</label>
                 <button class="field-number-control number-minus" type="button"
                   onclick="this.nextElementSibling.stepDown();"></button>
-                <input class="field-number field-input" type="number" min="0" id="adults" value="0" name="adults">
+                <input class="field-number field-input" type="number" min="0" id="adults" value="2" name="adults">
                 <button class="field-number-control number-plus" type="button"
                   onclick="this.previousElementSibling.stepUp();"></button>
               </p>
@@ -264,7 +266,7 @@
                 </label>
                 <button class="field-number-control number-minus" type="button"
                   onclick="this.nextElementSibling.stepDown();"></button>
-                <input class="field-number field-input" type="number" min="0" value="0" id="children" name="children">
+                <input class="field-number field-input" type="number" min="0" value="2" id="children" name="children">
                 <button class="field-number-control number-plus" type="button"
                   onclick="this.previousElementSibling.stepUp();"></button>
               </p>

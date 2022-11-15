@@ -215,6 +215,7 @@ body {
   margin-bottom: 64px;
   background-position: bottom, center;
   background-repeat: no-repeat, no-repeat, no-repeat;
+  background-color: #6b869d;
 }
 
 .main-hero-divider {
@@ -295,6 +296,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
+  cursor: pointer;
 }
 
 .title-h2 {
@@ -604,7 +606,7 @@ body {
 
 .filter-content {
   background-image: url("../img/catalog/catalog-background.png");
-  background-color: #000000;
+  background-color: #4b6075;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -716,6 +718,7 @@ body {
   appearance: none;
   border: solid 2px #e5e5e5;
   border-radius: 4px;
+  background-color: inherit;
 }
 
 .view-container {
@@ -1042,6 +1045,7 @@ body {
   margin-right: 16px;
   opacity: 0;
   z-index: 2;
+  cursor: pointer;
 }
 
 .catalog-filter-item {
@@ -1086,11 +1090,11 @@ body {
   content: url("../img/catalog/chechbox-icon.svg");
 }
 
-.catalog-filter-item:hover {
+.catalog-filter-item:hover:has(.control-input:not([disabled])){
   opacity: 0.6;
 }
 
-.catalog-filter-item:active {
+.catalog-filter-item:active:has(.control-input:not([disabled])) {
   opacity: 0.3;
 }
 
@@ -1102,6 +1106,13 @@ body {
 .control-input[type="radio"]:focus + .control::before,
 .control-input[type="radio"]:focus-visible + .control::before {
   outline: 3px solid #83b3d3;
+}
+
+.control-input:disabled,
+.control-input[type="radio"]:disabled + .control::before,
+.control-input[type="checkbox"]:disabled + .control::after,
+.control-input:disabled + .control {
+  cursor: not-allowed;
 }
 
 .button-blue:hover,
@@ -1601,7 +1612,7 @@ color:#615048;
 
 .field-number {
   background-color: #f2f2f2;
-  width: 20px;
+  width: 11px;
   height: 20px;
   border: 0;
   border-radius: 0;
@@ -1685,7 +1696,7 @@ color:#615048;
 }
 
 .number-minus {
-  transform: translateX(-200%);
+  transform: translateX(-100%) translateX(-31px);
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
   background-image: url("../img/button-minus.svg");
@@ -1702,8 +1713,8 @@ color:#615048;
 }
 
 .tooltip-icon {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   background-color: #83b3d3;
   background-image: url("../img/info.svg");
@@ -1717,7 +1728,7 @@ color:#615048;
 
 .tooltip-text {
   position: absolute;
-  padding: 15px 18px 18px 22px;
+  padding: 20px 18px 22px 22px;
   width: 216px;
   background: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -1729,8 +1740,8 @@ color:#615048;
   line-height: 20px;
   color: #ffffff;
   transform: translateX(50%);
-  right: 12px;
-  top: 35px;
+  right: 13px;
+  top: 42px;
   z-index: 30;
   display: none;
 }
